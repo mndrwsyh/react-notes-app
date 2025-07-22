@@ -49,8 +49,8 @@ function HomePage() {
             <InputLabel id="demo-simple-select-label">Sort By</InputLabel>
             <Select
               labelId="note_category_label"
-              id="note_category"
-              label="Category"
+              id="note_sortby"
+              label="sortby"
               defaultValue={"LastUpdated"}
             >
               <MenuItem value={"LastUpdated"}>Last Updated</MenuItem>
