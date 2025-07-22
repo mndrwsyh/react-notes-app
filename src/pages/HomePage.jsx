@@ -37,6 +37,7 @@ function HomePage() {
               labelId="note_category_label"
               id="note_category"
               label="Category"
+              defaultValue={"All"}
             >
               <MenuItem value={"All"}>All Categories</MenuItem>
               <MenuItem value={"Personal"}>Personal</MenuItem>
@@ -50,6 +51,7 @@ function HomePage() {
               labelId="note_category_label"
               id="note_category"
               label="Category"
+              defaultValue={"LastUpdated"}
             >
               <MenuItem value={"LastUpdated"}>Last Updated</MenuItem>
               <MenuItem value={"Title"}>Title</MenuItem>
